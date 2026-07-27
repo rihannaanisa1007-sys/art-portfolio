@@ -1,7 +1,7 @@
 .box{
     display: grid;
-	grid-template-columns: 310px 200px 310px;
-    grid-template-rows: 245px 100px 100px auto;
+	grid-template-columns: 310px 300px 310px;
+    grid-template-rows: 245px 200px 100px auto;
     gap: 10px;
     background-color: #8496f0;
     border: 2px solid #636fad;
