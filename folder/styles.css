@@ -1,6 +1,6 @@
 .box{
     display: grid;
-	grid-template-columns: 310px 300px 310px;
+	grid-template-columns: 310px 310px 310px;
     grid-template-rows: 245px 200px 100px auto;
     gap: 10px;
     background-color: #8496f0;
