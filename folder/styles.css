@@ -1,13 +1,13 @@
 .box{
     display: grid;
-	grid-template-columns: 310px 310px 310px;
-    grid-template-rows: 245px 200px 100px auto;
+	grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 305px 175px 430px auto;
     gap: 10px;
     background-color: #8496f0;
     border: 2px solid #636fad;
     padding: 10px;
     margin: 20px auto;
-	max-width: 840px;
+	max-width: 922px;
 }
 
 .box > div {
