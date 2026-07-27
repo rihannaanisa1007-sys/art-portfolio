@@ -1,0 +1,63 @@
+.box{
+    display: grid;
+	grid-template-columns: 310px 200px 310px;
+    grid-template-rows: 245px 100px 100px auto;
+    gap: 10px;
+    background-color: #8496f0;
+    border: 2px solid #636fad;
+    padding: 10px;
+    margin: 20px auto;
+	max-width: 840px;
+}
+
+.box > div {
+    background: white;
+    border: 1px solid #ffffff;
+}
+
+                
+ul {
+  	list-style-type: none;
+ 	margin: 0;
+	padding: 0;
+  	overflow: hidden;
+  	background-color: #b3cfff;
+}
+
+ul li {
+  	float: left;
+}
+
+ul li a {
+  	display: block;
+  	color: rgb(40, 51, 91);
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+			}
+            
+ul li a:hover {
+  	background-color: rgb(40, 51, 91);
+     color: white;
+}
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+            
+.item2 { 
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+            
+.text1 {
+	padding: 10px;
+    text-align: left;
+    margin: 0 0 5px;
+}
+            
+.text2 {
+    text-align: center;
+}
+        
