@@ -61,5 +61,16 @@ ul li a:hover {
     text-align: center;
 }
 
+.boxed-table,
+.boxed-table th,
+.boxed-table td {
+  border: 1px solid #000;
+}
+
+.boxed-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
 
         
