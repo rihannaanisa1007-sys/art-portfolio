@@ -1,7 +1,7 @@
 .box{
     display: grid;
 	grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 305px 175px 430px auto;
+    grid-template-rows: 340px 175px 505px auto;
     gap: 10px;
     background-color: #8496f0;
     border: 2px solid #636fad;
@@ -55,7 +55,7 @@ ul li a:hover {
 	padding: 10px;
     text-align: left;
     margin: 0 0 5px;
-    font-family: 'Arial', sans-serif;
+    font-family:'Courier New', Courier, monospace;
     font-size: 18px;
 }
             
