@@ -3,7 +3,7 @@
 	grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 10px;
     background-color: #8496f0;
-    border: 2px solid #636fad;
+    border: 2px solid #8496f0;
     padding: 10px;
     margin: 20px auto;
     max-width: 922px;
@@ -75,6 +75,6 @@ ul li a:hover {
 }
 
 body{
-    background-color: rgb(143, 180, 238);
+    background-color: rgb(180, 206, 248);
 }
         
