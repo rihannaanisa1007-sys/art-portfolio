@@ -10,46 +10,11 @@
 	max-width: 922px;
 }
 
-.box2{
-    display: grid;
-	grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 200px 200px 200px auto;
-    gap: 10px;
-    background-color: #8496f0;
-    border: 2px solid #636fad;
-    padding: 10px;
-    margin: 20px auto;
-	max-width: 922px;
-}
-
-.box3{
-    display: grid;
-	grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 200px 200px 200px auto;
-    gap: 10px;
-    background-color: #8496f0;
-    border: 2px solid #636fad;
-    padding: 10px;
-    margin: 20px auto;
-	max-width: 922px;
-}
-
 .box > div {
     background: white;
     border: 1px solid #ffffff;
 }
-
-.box2 > div {
-    background: white;
-    border: 1px solid #ffffff;
-}
-
-.box3 > div {
-    background: white;
-    border: 1px solid #ffffff;
-}
-
-                
+            
 ul {
   	list-style-type: none;
  	margin: 0;
