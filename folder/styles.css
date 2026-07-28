@@ -1,4 +1,4 @@
-.box{
+.box1{
     display: grid;
 	grid-template-columns: 300px 300px 300px;
     grid-template-rows: 340px 175px 505px auto;
@@ -10,7 +10,40 @@
 	max-width: 922px;
 }
 
-.box > div {
+.box2{
+    display: grid;
+	grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 200px 200px auto;
+    gap: 10px;
+    background-color: #8496f0;
+    border: 2px solid #636fad;
+    padding: 10px;
+    margin: 20px auto;
+	max-width: 922px;
+}
+
+.box3{
+    display: grid;
+	grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 200px 200px auto;
+    gap: 10px;
+    background-color: #8496f0;
+    border: 2px solid #636fad;
+    padding: 10px;
+    margin: 20px auto;
+	max-width: 922px;
+
+.box1 > div {
+    background: white;
+    border: 1px solid #ffffff;
+}
+
+.box2 > div {
+    background: white;
+    border: 1px solid #ffffff;
+}
+
+.box3 > div {
     background: white;
     border: 1px solid #ffffff;
 }
@@ -55,7 +88,7 @@ ul li a:hover {
 	padding: 10px;
     text-align: left;
     margin: 0 0 5px;
-    font-family:'Courier New', Courier, monospace;
+    font-family: Arial, sans-serif;
     font-size: 18px;
 }
             
