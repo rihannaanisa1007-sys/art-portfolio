@@ -1,4 +1,4 @@
-.box1{
+.box{
     display: grid;
 	grid-template-columns: 300px 300px 300px;
     grid-template-rows: 340px 175px 505px auto;
@@ -33,7 +33,7 @@
     margin: 20px auto;
 	max-width: 922px;
 
-.box1 > div {
+.box > div {
     background: white;
     border: 1px solid #ffffff;
 }
