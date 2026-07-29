@@ -212,7 +212,7 @@
             <div class="box">
             <!--July Newsletter-->
             <div class="puh banner">
-                <h3 class="text2">Division NewsLetter</h3>
+                <h3 class="text2">Division Newsletter</h3>
             </div>
 
                 <div>
@@ -403,12 +403,9 @@
         </div>
 
         <script>
-            const revealObserver = new IntersectionObserver((entries, observer) => {
+            const revealObserver = new IntersectionObserver((entries) => {
                 entries.forEach((entry) => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('is-visible');
-                        observer.unobserve(entry.target);
-                    }
+                    entry.target.classList.toggle('is-visible', entry.isIntersecting);
                 });
             }, {
                 threshold: 0.15
