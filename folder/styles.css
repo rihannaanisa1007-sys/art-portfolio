@@ -13,6 +13,11 @@
     background: white;
     border: 1px solid #ffffff;
 }
+
+.box > div.flip-card {
+    background: transparent;
+    border: none;
+}
             
 ul {
   	list-style-type: none;
@@ -106,6 +111,16 @@ ul li a:hover {
     backface-visibility: hidden;
     border-radius: 10px;
     overflow: hidden;
+}
+
+.flip-card-front {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #edf4ff;
+    color: #303f9f;
+    font-size: 48px;
+    font-weight: bold;
 }
 
 .flip-card-front img {
