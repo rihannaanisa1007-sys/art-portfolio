@@ -193,7 +193,7 @@
             <div class="item3">
                 <p class="text1">
                     These posts were three committee posts that I was tasked to make.
-                    These posts promoted a leadership role
+                    These posts promoted leadership roles
                     within Division 34 North. It had the duties of the committee, when the deadline was due, 
                     the application link, and some info on the officers running the committee.
                 </p>
@@ -405,6 +405,26 @@
             </div>
 
         </div>
+
+        <script>
+            const revealObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('is-visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, {
+                threshold: 0.15
+            });
+
+            document.addEventListener('DOMContentLoaded', () => {
+                document.querySelectorAll('.box').forEach((box) => {
+                    box.classList.add('reveal');
+                    revealObserver.observe(box);
+                });
+            });
+        </script>
             
     </body>
 </html>

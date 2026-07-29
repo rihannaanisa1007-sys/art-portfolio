@@ -10,6 +10,17 @@
     border-radius: 20px;
 }
 
+.box.reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.box.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 .box > div {
     background: white;
     border: 1px solid #ffffff;
