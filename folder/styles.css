@@ -149,6 +149,12 @@ body{
     color: rgb(180, 206, 248);
 }
 
+.box .puh,
+.box .banner {
+    background-color: rgb(69, 84, 187);
+    color: rgb(180, 206, 248);
+}
+
 .newsletter-row {
     grid-column: 1 / -1;
     display: grid;
