@@ -138,4 +138,6 @@ body{
 
 .puh{
     background-color: #5c69a9;
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
