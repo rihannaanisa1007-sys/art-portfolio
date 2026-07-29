@@ -154,6 +154,7 @@ body{
     background-color: rgb(69, 84, 187);
     color: rgb(214, 230, 255);
     border: 2px solid rgb(69, 84, 187);
+    font-size: 35px;
 }
 
 .newsletter-row {
