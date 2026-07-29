@@ -144,10 +144,9 @@ body{
     grid-column-end: 4;
 }
 
-.hide {
-    background-color: #8496f0;
-    border: 50px solid #8496f0;
-    color: #8496f0;
+.banner {
+    background-color: rgb(69, 84, 187);
+    color: rgb(180, 206, 248);
 }
 
 .newsletter-row {
