@@ -174,20 +174,3 @@ body{
     border: 2px solid rgb(69, 84, 187);
     font-size: 35px;
 }
-
-.newsletter-row {
-    grid-column: 1 / -1;
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 15px;
-    align-items: start;
-}
-
-.newsletter-item {
-    background: transparent;
-    border: none;
-}
-
-.newsletter-item > div {
-    max-width: 100%;
-}
