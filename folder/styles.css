@@ -68,6 +68,11 @@ ul li a:hover {
     font-family:'Times New Roman', Times, serif;
 }
 
+.text3 {
+    text-align: center;
+    font-size: 35px;
+    font-family:'Times New Roman', Times, serif;
+
 .boxed-table,
 .boxed-table th,
 .boxed-table td {
