@@ -191,3 +191,10 @@ body{
     border: 2px solid rgb(69, 84, 187);
     font-size: 35px;
 }
+
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 20px 0;
+}
