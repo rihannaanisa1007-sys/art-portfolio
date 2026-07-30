@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="utf-8">
-        <title> Graphic Design Portfolio</title>
+        <title>Lowell Design Portfolio</title>
         <link rel="stylesheet" href="styles.css">        
     </head>
 
@@ -18,10 +18,27 @@
         </div>
 
          <div class="box">
-            <div>
-
+            <div class="item3">
+                <img src="https://i.pinimg.com/736x/59/38/d9/5938d97ea072d80fd1cb967a7cc17b02.jpg"
+                alt="Table of Contents of Lowell Banner" width="922" style="display: block; margin: 0 auto;">
             </div>
 
+            <div class="item1">
+                <h3 class="text2">What is Lowell</h3>
+                <p class="text1">
+                    Lowell high school is a merit based public high school that is reportedly the best in San 
+                    Francisco and one of the best in California. Students are required to write a series of small 
+                    paragraphs and where grades are considered when applying.
+                </p>
+                <p>
+                    The school offers many clubs. They are known to have over one hundred clubs. The school
+                    offers many classes as well, especially honors and advanced placement classes. It's known that
+                    the classes are academically challenging. 
+            </div>
+
+            <div></div>
+            
+            <div></div>
             <div class="item2">
                 <h3 class="text2">My role</h3>
                 <p class="text1">
@@ -34,6 +51,25 @@
             <div></div>
             <div></div>
             <div></div>
+            <!--end of box-->
          </div>
+
+         <!--Box fade in and out-->
+         <script>
+            const revealObserver = new IntersectionObserver((entries) => {
+                entries.forEach((entry) => {
+                    entry.target.classList.toggle('is-visible', entry.isIntersecting);
+                });
+            }, {
+                threshold: 0.09
+            });
+
+            document.addEventListener('DOMContentLoaded', () => {
+                document.querySelectorAll('.box').forEach((box) => {
+                    box.classList.add('reveal');
+                    revealObserver.observe(box);
+                });
+            });
+        </script>
     </body>
 </html>
