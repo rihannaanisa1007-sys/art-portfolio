@@ -32,11 +32,16 @@
 }
             
 ul {
-  	list-style-type: none;
- 	margin: 0;
-	padding: 0;
-  	overflow: hidden;
-  	background-color: #edf4ff;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #edf4ff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 ul li {
@@ -164,6 +169,7 @@ ul li a:hover {
 
 body{
     background-color: rgb(180, 206, 248);
+    padding-top: 56px;
 }
 
 .puh{
