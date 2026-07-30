@@ -47,7 +47,7 @@
             <div class="flip-card">
                 <div class="flip-card-inner">
                     <div class="flip-card-front text2">What's my favorite school subject</div>
-                    <div class="flip-card-back"><p>Art and English</p></div>
+                    <div class="flip-card-back"><p>Art (and English)</p></div>
                 </div>
             </div>
 
@@ -62,6 +62,27 @@
                 <div class="flip-card-inner">
                     <div class="flip-card-front text2">What is the purpose of this website</div>
                     <div class="flip-card-back"><p>To showcase graphic design skills</p></div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front text2">What was my role in Key Club as a Freshman</div>
+                    <div class="flip-card-back"><p>Intern of an Officer</p></div>
+                </div>
+            </div>
+            
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front text2">What's my favorite art form</div>
+                    <div class="flip-card-back"><p>All of it</p></div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front text2">How did I find graphic design</div>
+                    <div class="flip-card-back"><p>Last year of middle school, created posters for a club</p></div>
                 </div>
             </div>
 
@@ -85,8 +106,29 @@
 
             <div class="flip-card">
                 <div class="flip-card-inner">
+                    <div class="flip-card-front text2">What was the name of the documentary film</div>
+                    <div class="flip-card-back"><p>Try Harder!</p></div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front text2">How many officers are on a board</div>
+                    <div class="flip-card-back"><p>Six (6)</p></div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
                     <div class="flip-card-front text2">What does the student government do</div>
                     <div class="flip-card-back"><p>Plan school events</p></div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front text2">Which music artist did I use for my campaign</div>
+                    <div class="flip-card-back"><p>Beabadoobee</p></div>
                 </div>
             </div>
 
@@ -129,7 +171,44 @@
                 </div>
             </div>
 
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front text2">What is the Division's colors</div>
+                    <div class="flip-card-back"><p>Blue and Yellow</p></div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front text2">What does DCM stand for</div>
+                    <div class="flip-card-back"><p>Division Council Meeting</p></div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front text2">What is Fall Rally</div>
+                    <div class="flip-card-back"><p>Annual gathering of multiple divisions to celebrate service and show spirit</p></div>
+                </div>
+            </div>
         <!--Box end-->
         </div>
+
+        <script>
+            const revealObserver = new IntersectionObserver((entries) => {
+                entries.forEach((entry) => {
+                    entry.target.classList.toggle('is-visible', entry.isIntersecting);
+                });
+            }, {
+                threshold: 0.09
+            });
+
+            document.addEventListener('DOMContentLoaded', () => {
+                document.querySelectorAll('.box').forEach((box) => {
+                    box.classList.add('reveal');
+                    revealObserver.observe(box);
+                });
+            });
+        </script>
     </body>
 </html>
